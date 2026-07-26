@@ -1,0 +1,20 @@
+@media (max-width: 700px) {
+  .book-shell {
+    width: 100vw;
+    aspect-ratio: .72 / 1;
+  }
+}
+
+@media (min-width: 960px) {
+  .book-shell {
+    width: 100vw;
+    height: 100vh;
+    aspect-ratio: .72 / 1;
+    overflow: hidden;
+  }
+
+  .book {
+    height: 100vh;
+    overflow:hidden;
+  }
+}
