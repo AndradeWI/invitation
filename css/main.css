@@ -10,7 +10,7 @@ body::before {
   position: fixed;
   inset: -10px;
 
-  background-image: url('/assets/images/background.jpeg');
+  background-image: url('./assets/images/background.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
