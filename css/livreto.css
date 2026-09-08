@@ -21,7 +21,7 @@ body {
 }
 
 .book-shell {
-  width: min(92vw, 600px);
+  max-width: 600px;
   aspect-ratio: 1.42 / 1;
   perspective: 2200px;
 }
@@ -29,5 +29,5 @@ body {
 .book {
   position: relative;
   transform-style: preserve-3d;
-  border: 1px solid lightgray; width: 100%; min-height: 750px;
+  border: 0px solid lightgray; width: 100%; min-height: 750px;
 }
